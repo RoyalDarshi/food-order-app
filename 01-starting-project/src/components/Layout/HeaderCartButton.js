@@ -4,7 +4,7 @@ import "./HeaderCartButton.css"
 
 const HeaderCartButton=(props)=>{
     return(
-        <button className={"button"}>
+        <button onClick={props.onClick} className={"button"}>
             <span className={"icon"}>
                 <CartIcon />
             </span>
