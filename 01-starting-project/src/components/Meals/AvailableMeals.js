@@ -1,4 +1,4 @@
-import "./AvailableMeal.css";
+import classes from "./AvailableMeal.module.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
 
@@ -42,7 +42,7 @@ const AvailableMeals = (props) => {
     );
   });
   return (
-    <section className={"meals"}>
+    <section className={classes.meals}>
       <Card>{mealsList}</Card>
     </section>
   );
